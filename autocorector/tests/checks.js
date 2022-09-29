@@ -2,7 +2,7 @@
 /* eslint-disable no-undef*/
 // IMPORTS
 const path = require("path");
-const Utils = require("./testutils");
+const Utils = require("../utils/testutils");
 
 const path_assignment = path.resolve(path.join(__dirname, "../", "index.html"));
 const URL = `file://${path_assignment.replace("%", "%25")}`;
