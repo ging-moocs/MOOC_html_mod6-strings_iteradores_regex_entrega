@@ -4,7 +4,7 @@
 const path = require("path");
 const Utils = require("../utils/testutils");
 
-const path_assignment = path.resolve(path.join(__dirname, "../", "index.html"));
+const path_assignment = path.resolve(path.join(__dirname, "../../", "index.html"));
 const URL = `file://${path_assignment.replace("%", "%25")}`;
 const browser = new Browser({"waitDuration": 100, "silent": true});
 
@@ -57,7 +57,7 @@ describe("Strings e iteradores", function () {
                 Error: ${error_nav}
                 Recibido: ${browser.text("body")}`;
             }
-           
+
             this.msg_err = "El número de palabras NO se cuenta correctamente";
             this.msg_ok = "El número de palabras se cuenta correctamente";
 
