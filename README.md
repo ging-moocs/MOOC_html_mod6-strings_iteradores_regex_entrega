@@ -4,7 +4,7 @@
 <br/><br/><br/>
 
 # Módulo 6: Strings, iteradores, bucles y Regexp - Entrega: Contar palabras
-Versión: 14 de septiembre de 2022
+Versión: 28 de enero de 2024
 
 ## Objetivos
  * Practicar con Strings, arrays e iteradores
