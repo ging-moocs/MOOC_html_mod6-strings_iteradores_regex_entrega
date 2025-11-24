@@ -6,8 +6,8 @@
     "info": {
         "githubURL": "ging-moocs/MOOC_html_mod6-strings_iteradores_regex_entrega",
         "serverUrl": "https://moocbot.dit.upm.es/",
-        "courseId": "141",
-        "assignmentId": "115"
+        "courseId": "347",
+        "assignmentId": "350"
     },
     "dependencies": {
         "autocorector": "^3.5.0"
